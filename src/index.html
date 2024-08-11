@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiUS Shopping Cart Utility</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h3>
+        DiUS Shopping Cart
+      </h3>
+    </header>
+    <section class="body-wrapper">
+      <!-- BUTTONS SECTION L.H.S-->
+    <section class="items-section">
+      <p>Click on the items to scan</p>
+      <button id="ipd" type="button">Super iPad</button>
+      <button id="mbp" type="button">MacBook Pro</button>
+      <button id="atv" type="button">Apple TV</button>
+      <button id="vga" type="button">VGA adapter</button>
+      <div class="total-btn-wrapper">
+        <button type="button">Calculate Total</button>
+      </div>
+    </section>
+
+    <!-- TOTAL AMOUNT DISPLAYING SECTION R.H.S -->
+    <section class="total-section">
+      <table>
+        <tr> <td>Super iPad </td><td><p id="ipd"></p></td></tr>
+        <tr><td>MacBook Pro </td><td><p id="mbp"></p></td></tr>
+        <tr><td>Apple TV </td><td><p id="atv"></p></td></tr>
+        <tr><td>VGA adapter </td><td><p id="vga"></p></td></tr>
+        <tr><td>Total </td></td><td> <p id="total-displayer"></p></td></tr>
+      </table>
+     
+    </section>
+
+    </section>
+    
+    <!-- Including JavaScript file -->
+    <script type="module" src="/src/script.js"></script>
+  </body>
+</html>
