@@ -1,0 +1,35 @@
+
+{
+  "ipd": {
+    "name": "Super iPad",
+    "mrp": 549.99,
+    "type": "bulkDiscount",
+    "strategyInfo":{
+      "discountThreshold": 4,
+      "discountPrice": 499.99
+    }
+  },
+  "mbp": {
+    "name": "MacBook Pro",
+    "mrp": 1399.99,
+     "type": "normalPrice",
+    "strategyInfo": {
+      "freeProductId": "vga"
+    }
+  },
+  "atv": {
+    "name": "Apple TV",
+    "mrp": 109.50,
+     "type": "getNforM",
+    "strategyInfo": {
+      "N": 3,
+      "M": 2
+    }
+  },
+  "vga": {
+    "name": "VGA adapter",
+    "mrp": 30.00,
+     "type":"normalPrice",
+    "strategyInfo": {}
+  }
+}

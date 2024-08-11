@@ -1,0 +1,33 @@
+{
+  "name": "dius",
+  "version": "1.0.0",
+  "description": "Shopping Cart test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rincyphilip12/dius_cart.git"
+  },
+  "keywords": [
+    "dependency",
+    "injection",
+    "shopping",
+    "cart"
+  ],
+  "author": "Rincy Philip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rincyphilip12/dius_cart/issues"
+  },
+  "homepage": "https://github.com/rincyphilip12/dius_cart#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
