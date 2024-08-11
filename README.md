@@ -1,7 +1,8 @@
 
 HOW TO START A PROJECT
 ---- npm start -----
-Open in browser [https:](http://localhost:3000/)
+Open in browser
+[https://localhost:3000/](http://localhost:3000/)
 
 For First time, Run
 ---- npm install -----
